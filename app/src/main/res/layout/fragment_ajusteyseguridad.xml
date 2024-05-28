@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/flunanegro"
+    tools:context=".AjustesSeguridadFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="159dp"
+        android:layout_height="731dp"
+        android:layout_marginBottom="512dp"
+        app:cardBackgroundColor="#39FFFFFF"
+        app:cardCornerRadius="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imagelogo"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="144dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textcoden"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="99dp"
+            android:layout_marginStart="3dp"
+            android:fontFamily="@font/inter"
+            android:text="Coden"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            />
+
+
+        <Button
+            android:id="@+id/buttonajustecuenta"
+            android:layout_width="159dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="150dp"
+            android:background="#2FFFFFFF"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Ajustes de la cuenta"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/buttonpassysegu"
+            android:layout_width="159dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="205dp"
+            android:background="#92454545"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Contraseña y seguridad"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13sp"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textcys"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Contraseña y Seguridad"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textcambiar"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Cambia tu contraseña y ajustes de seguridad"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+
+
+
+    <TextView
+        android:id="@+id/textingresaD"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Ingresa tu contraseña actual"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextcontraseñactual"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/dotgothic16"
+        android:hint="******************"
+        android:padding="8dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textingresacontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Ingresa tu contraseña nueva"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/editTextnombre"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/dotgothic16"
+        android:hint="************"
+        android:padding="8dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        />
+
+
+    <TextView
+        android:id="@+id/textingresaconfirmarCntra"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Confirma tu nueva contraseña"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/editTextapellido"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/dotgothic16"
+        android:hint="************"
+        android:padding="8dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textcorreoelectronico"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Correo electronico"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+
+    <EditText
+        android:id="@+id/editTextcorreo"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="472dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/dotgothic16"
+        android:hint="lu****@gmail.com"
+        android:padding="8dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textcambiacorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="540dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="Correo de recuperacion"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/editTextpais"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="572dp"
+        android:layout_marginStart="164dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/dotgothic16"
+        android:hint="correoderecuperacion@Gmail.com"
+        android:textAlignment="center"
+        android:padding="8dp"
+        android:textColorHint="#FFFFFF"
+        android:textSize="14sp"
+        />
+
+
+    <Button
+        android:id="@+id/buttoneditar"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginStart="165dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Editar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/buttonConfirmar"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginStart="316dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Confirmar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+</FrameLayout>

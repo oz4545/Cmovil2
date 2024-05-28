@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="CODEN"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        tools:ignore="MissingPrefix"
+        tools:targetApi="31">
+        <activity android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StartActivity" />
+        <activity android:name=".AboutCodenActivity" />
+        <activity android:name=".ActivityLogin" />
+        <activity android:name=".ActivityTerminoyCondiciones" />
+        <activity android:name=".ActivityRegistro" />
+        <activity android:name=".ActivityOlvidoContra" />
+        <activity android:name=".ActivityConfirmarCorreo" />
+        <activity android:name=".HCursosActivity"
+                  android:exported="true"/>
+
+
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

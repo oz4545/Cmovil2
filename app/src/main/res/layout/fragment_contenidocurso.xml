@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondocontenidocurso"
+    tools:context=".ContenidoCursoFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iconx"
+            android:layout_width="109dp"
+            android:layout_height="114dp"
+            android:layout_marginTop="02dp"
+            android:layout_marginEnd="300dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/iconx" />
+
+        <ImageView
+            android:id="@+id/imagehtml"
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="164dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/html" />
+
+        <TextView
+            android:id="@+id/texthtml"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:fontFamily="@font/inter"
+            android:text="HTML"
+            android:textColor="#989898"
+            android:textSize="24sp"
+            app:layout_constraintTop_toBottomOf="@id/imagehtml"
+            app:layout_constraintStart_toStartOf="@id/imagehtml"
+            app:layout_constraintEnd_toEndOf="@id/imagehtml"
+            android:layout_marginTop="8dp" />
+
+        <!-- Question -->
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="What is the first tag of an HTML document?"
+            android:textSize="18sp"
+            android:fontFamily="@font/press_start_2p"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/texthtml"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <TextView
+            android:id="@+id/select_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the correct answer"
+            android:textSize="14sp"
+            android:fontFamily="@font/dotgothic16"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/question"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp" />
+
+        <!-- Multiple choice answers -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/fondo_preguntas"
+            app:layout_constraintTop_toBottomOf="@id/select_answer"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
+
+            <RadioButton
+                android:id="@+id/answer1"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/dotgothic16"
+                android:text="body"
+                android:textSize="16sp"
+                android:buttonTint="@color/white"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/dotgothic16"
+                android:text="head"
+                android:textSize="16sp"
+                android:buttonTint="@color/white"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/answer3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/dotgothic16"
+                android:text="html"
+                android:textSize="16sp"
+                android:buttonTint="@color/white"
+                android:textColor="@color/white" />
+
+            <RadioButton
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:fontFamily="@font/dotgothic16"
+                android:text="Tags? Sorry I didn't get you"
+                android:textSize="16sp"
+                android:buttonTint="@color/white"
+                android:textColor="@color/white" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonRegistrar"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/fondo_degradado_boton"
+            android:fontFamily="@font/inter"
+            android:text="CHECK RESULT"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+            app:layout_constraintStart_toStartOf="@+id/radioGroup"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

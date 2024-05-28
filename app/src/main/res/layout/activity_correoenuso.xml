@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imagefondo"
+        android:layout_width="455dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondolog" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="164dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#989898"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagelogo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textbi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Bienvenidos a Coden"
+        android:textColor="#9A69B8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcoden" />
+
+
+    <!-- Caja de texto transparente con bordes morados -->
+    <EditText
+        android:id="@+id/editTextcorreoenuso"
+        android:layout_width="331dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="sans-serif-black"
+        android:hint="Correo en uso"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/Ctres"
+        android:textColorHint="#FFFFFF"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="@+id/textbi"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/textbi"
+        app:layout_constraintTop_toBottomOf="@+id/textbi" />
+
+
+
+    <TextView
+        android:id="@+id/textemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/inter"
+        android:text="Email de confirmación"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextcorreoenuso" />
+
+    <!-- Caja de texto transparente con bordes morados -->
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Coden@example.com"
+        android:padding="8dp"
+        android:textColor="@color/Ctres"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/textemail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textemail"
+        app:layout_constraintTop_toBottomOf="@+id/textemail" />
+
+
+    <TextView
+        android:id="@+id/textmensajes"
+        android:layout_width="331dp"
+        android:layout_height="199dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Hola Luis, Queremos informarte que el correo ya esta en uso.
+Por favor, haz clic en el siguiente enlace para verificar y actualizar tus datos"
+        android:textAlignment="center"
+        android:textColor="#9A69B8"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="@+id/editTextEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTextEmail"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEmail" />
+
+    <Button
+        android:id="@+id/buttoninicio"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Actualiza tus datos aqui"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textmensajes"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textmensajes"
+        app:layout_constraintTop_toBottomOf="@+id/textmensajes" />
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttoninicio"
+        app:layout_constraintHorizontal_bias="0.564"
+        app:layout_constraintStart_toStartOf="@+id/buttoninicio"
+        app:layout_constraintTop_toBottomOf="@+id/buttoninicio">
+
+
+        <!-- Botón Gracias  por unirte a nosotros!-->
+
+
+        <Button
+            android:id="@+id/buttoncrearcuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter"
+            android:text="Crear cuenta"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Button
+            android:id="@+id/buttonsoporte"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/buttoncrearcuenta"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter"
+            android:text="Soporte tecnico"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

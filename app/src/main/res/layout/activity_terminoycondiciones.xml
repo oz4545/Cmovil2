@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/fondoazulavion"
+        android:layout_width="455dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoazulavion" />
+
+
+    <TextView
+        android:id="@+id/textyc"
+        android:layout_width="387dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Términos y Condiciones"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textmensaje"
+        android:layout_width="390dp"
+        android:layout_height="520dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/inter"
+        android:text="@string/texto_TyC"
+        android:textAlignment="gravity"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="@+id/textyc"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="@+id/textyc"
+        app:layout_constraintTop_toBottomOf="@+id/textyc" />
+
+
+    <Button
+        android:id="@+id/buttonaceptar"
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Aceptar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textmensaje"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textmensaje"
+        app:layout_constraintTop_toBottomOf="@+id/textmensaje" />
+
+
+    <Button
+        android:id="@+id/buttonrechazar"
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Rechazar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttonaceptar"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/buttonaceptar"
+        app:layout_constraintTop_toBottomOf="@+id/buttonaceptar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

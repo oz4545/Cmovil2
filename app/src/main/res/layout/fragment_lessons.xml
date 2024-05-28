@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lessonsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagefondo"
+            android:layout_width="455dp"
+            android:layout_height="747dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/fondoorenge" />
+
+        <TextView
+            android:id="@+id/textlogin"
+            android:layout_width="232dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="508dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="LECCIONES"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="371dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="432dp"
+            app:cardBackgroundColor="#95FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="302dp"
+                android:layout_height="match_parent">
+
+                <!-- Fondo blanco cuadrado -->
+                <View
+                    android:id="@+id/white_background"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@id/white_background"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="HTML tutorial"
+                    android:textColor="@color/morado"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@id/white_background"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="menos de un minuto."
+                    android:textColor="@color/morado"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="31dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-44dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toEndOf="@id/white_background"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="1"
+                    android:textColor="@color/morado"
+                    android:textSize="35sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card7"
+            android:layout_width="411dp"
+            android:layout_height="155dp"
+            android:layout_marginBottom="580dp"
+            app:cardBackgroundColor="#95FF5900"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <TextView
+                    android:id="@+id/text11"
+                    android:layout_width="109dp"
+                    android:layout_height="25dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="52dp"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="HTML"
+                    android:textColor="@color/morado"
+                    android:textSize="25sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text12"
+                    android:layout_width="208dp"
+                    android:layout_height="17dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="CursoTutorial"
+                    android:textColor="@color/morado"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/text11" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="74dp"
+                    android:layout_height="67dp"
+                    android:layout_marginEnd="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/html" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="371dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="344dp"
+            app:cardBackgroundColor="#95FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="349dp"
+                android:layout_height="match_parent">
+
+                <!-- Fondo blanco cuadrado -->
+                <View
+                    android:id="@+id/white_background2"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="285dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@id/white_background2"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="¿Por qué Usar HTML?"
+                    android:textColor="@color/morado"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text4"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@id/white_background2"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="menos de un minuto."
+                    android:textColor="@color/morado"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text6"
+                    android:layout_width="31dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-44dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toEndOf="@id/white_background2"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="2"
+                    android:textColor="@color/morado"
+                    android:textSize="35sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="371dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="256dp"
+            app:cardBackgroundColor="#95FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="335dp"
+                android:layout_height="match_parent">
+
+                <!-- Fondo blanco cuadrado -->
+                <View
+                    android:id="@+id/white_background3"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/text7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@id/white_background3"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Ejemplo HTML."
+                    android:textColor="@color/morado"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text7"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@id/white_background3"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Lectura de 3 minutos."
+                    android:textColor="@color/morado"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text9"
+                    android:layout_width="31dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-44dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toEndOf="@id/white_background3"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="3"
+                    android:textColor="@color/morado"
+                    android:textSize="35sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card4"
+            android:layout_width="371dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="168dp"
+            app:cardBackgroundColor="#95FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="335dp"
+                android:layout_height="match_parent">
+
+                <!-- Fondo blanco cuadrado -->
+                <View
+                    android:id="@+id/white_background4"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/text10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@id/white_background4"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Atributos HTML."
+                    android:textColor="@color/morado"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text10"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@id/white_background4"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Lectura de 3 minutos."
+                    android:textColor="@color/morado"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text14"
+                    android:layout_width="31dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-44dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toEndOf="@id/white_background4"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="4"
+                    android:textColor="@color/morado"
+                    android:textSize="35sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card5"
+            android:layout_width="371dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="80dp"
+            app:cardBackgroundColor="#95FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.475"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <RelativeLayout
+                android:layout_width="335dp"
+                android:layout_height="match_parent">
+
+                <!-- Fondo blanco cuadrado -->
+                <View
+                    android:id="@+id/white_background5"
+                    android:layout_width="54dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:background="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/text15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@id/white_background5"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Encabezados HTML."
+                    android:textColor="@color/morado"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/text16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text15"
+                    android:layout_marginStart="14dp"
+                    android:layout_marginTop="9dp"
+                    android:layout_toEndOf="@id/white_background5"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="Lectura de 1 minuto."
+                    android:textColor="@color/morado"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/text17"
+                    android:layout_width="31dp"
+                    android:layout_height="33dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="-44dp"
+                    android:layout_marginBottom="14dp"
+                    android:layout_toEndOf="@id/white_background5"
+                    android:fontFamily="@font/press_start_2p"
+                    android:text="5"
+                    android:textColor="@color/morado"
+                    android:textSize="35sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagefondo"
+        android:layout_width="455dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondoorenge" />
+
+    <TextView
+        android:id="@+id/textlogin"
+        android:layout_width="228dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="612dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="HTML tutorial"
+        android:textColor="@color/morado"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Continuar"
+        android:layout_width="180dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="590dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="continuar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Línea divisoria -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/morado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/card1"
+        app:layout_constraintTop_toBottomOf="@+id/textlogin"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="416dp"
+        android:layout_height="580dp"
+        app:cardBackgroundColor="#48D136F4"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="12dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/press_start_2p"
+                android:text="HTML, o HyperText Markup Language (Lenguaje de Marcado de Hipertexto), es el lenguaje estándar utilizado para crear y estructurar páginas web. Fue desarrollado por Tim Berners-Lee en 1991, y ha evolucionado considerablemente desde su primera versión. HTML se basa en una serie de elementos, también conocidos como etiquetas, que definen la estructura y el contenido de una página web. Cada elemento tiene un propósito específico y se utiliza para representar diferentes tipos de contenido.
+                es el fundamento de la web. Es esencial para cualquier persona interesada en el desarrollo web comprender cómo estructurar contenido utilizando HTML. Con el conocimiento básico de HTML, puedes empezar a crear tus propias páginas web y, con el tiempo, aprender tecnologías adicionales como CSS para el diseño y JavaScript para la interactividad. HTML es el primer paso en el emocionante mundo del desarrollo web, y dominarlo te abrirá muchas puertas en el ámbito digital."
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

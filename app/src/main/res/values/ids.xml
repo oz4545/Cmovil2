@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textnum1" type="id" />
+    <item name="textuser10" type="id" />
+    <item name="textuser9" type="id" />
+    <item name="textuser8" type="id" />
+    <item name="textuser7" type="id" />
+    <item name="textuser6" type="id" />
+    <item name="textuser5" type="id" />
+    <item name="textuser4" type="id" />
+    <item name="textuser3" type="id" />
+    <item name="textuser2" type="id" />
+    <item name="textuser1" type="id" />
+    <item name="textranking" type="id" />
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fondomundo"
+        android:layout_width="455dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondolog" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="121dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagelogo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textContactanos"
+        android:layout_width="398dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Acerca de coden "
+        android:textColor="@color/white"
+        android:textSize="44sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcoden" />
+
+    <TextView
+        android:id="@+id/textmensaje"
+        android:layout_width="406dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="En coden, somos un equipo de tres integrantes comprometidos con la revolucion en el campo de el desarrollo de software con el objetivo de transformar esta experiencia en una mas didactica e interactiva a la vez creamos un espacio para apasionados de la programacion que quierann practicar y compartir sus ideas"
+        android:textColor="#898888"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/textContactanos"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/textContactanos"
+        app:layout_constraintTop_toBottomOf="@+id/textContactanos" />
+
+    <Button
+        android:id="@+id/buttonregresar"
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Regresar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textmensaje"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textmensaje"
+        app:layout_constraintTop_toBottomOf="@+id/textmensaje" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

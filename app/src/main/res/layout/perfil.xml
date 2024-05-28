@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagefondo"
+        android:layout_width="455dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondolog" />
+
+    <!-- Caja de texto transparente con bordes morados -->
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="158dp"
+        android:layout_height="155dp"
+        android:src="@drawable/fotoperfil"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.239"
+        app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+    <TextView
+        android:id="@+id/textnombrecompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Nombre Completo."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageProfile" />
+
+    <TextView
+        android:id="@+id/textfechadenacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Fecha de Nacimiento."
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNombrecompleto" />
+
+    <EditText
+        android:id="@+id/editTextNombrecompleto"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/press_start_2p"
+        android:hint="Jhon Esteban Serrato"
+        android:padding="10dp"
+        android:textColor="@color/Ctres"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textnombrecompleto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textnombrecompleto"
+        app:layout_constraintTop_toBottomOf="@+id/textnombrecompleto" />
+
+    <EditText
+        android:id="@+id/editTextFechadenacimiento"
+        android:layout_width="331dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="@font/press_start_2p"
+        android:hint="**/**/****"
+        android:padding="10dp"
+        android:textColor="@color/Ctres"
+        android:textColorHint="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/textfechadenacimiento"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textfechadenacimiento"
+        app:layout_constraintTop_toBottomOf="@+id/textfechadenacimiento" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

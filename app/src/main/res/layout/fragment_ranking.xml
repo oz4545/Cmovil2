@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lunaaf"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".RankingFragment">
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="121dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#989898"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/dotgothic16"
+        android:text="RANKING"
+        android:textColor="@color/white"
+        android:textSize="66sp" />
+
+    <!-- Usuario 1 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:id="@+id/textnum1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="1"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Esteban Serrato"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+
+
+        <ImageView
+            android:id="@+id/imagemoneda"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/monedazul" />
+    </LinearLayout>
+
+    <!-- Usuario 2 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="2"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Kiluyu87"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 3 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="3"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="OOI5741"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 4 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="4"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Mill"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 5 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="5"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="ProgramadorJR21"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 6 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="6"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="CAMILA"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 7 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="7"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Angel87"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 8 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="8"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Sebasss"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 9 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="9"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Teilor"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+    <!-- Usuario 10 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp">
+
+        <TextView
+            android:id="@+id/textnum10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="10"
+            android:textColor="@color/morado"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textuser10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="Dann"
+            android:textColor="@color/white"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+</LinearLayout>

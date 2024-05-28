@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APPCODEN</string>
+    <string name="texto_TyC">Bienvenido/a a nuestra aplicación de programación de e-learning. Antes de utilizar nuestra plataforma, te pedimos que leas atentamente los siguientes Términos y Condiciones, ya que constituyen un contrato legalmente vinculante entre tú y nosotros.\n\n
+Aceptación de los Términos: Al acceder o utilizar nuestra aplicación, aceptas cumplir con estos Términos y Condiciones y todas las políticas y directrices incorporadas por referencia.\n\n
+Uso de la Aplicación: (a) Solo puedes utilizar la aplicación con fines educativos y no para cualquier actividad ilegal o inapropiada. (b) No debes modificar, adaptar o hackear la aplicación o modificar otra página web para implicar falsamente que está asociada con nuestra aplicación. (c) No debes intentar obtener acceso no autorizado a la aplicación o a cualquier red relacionada.\n\n
+Ley Aplicable: Estos Términos y Condiciones se regirán e interpretarán de acuerdo con las leyes del [país o jurisdicción], sin tener en cuenta sus disposiciones sobre conflictos de leyes.\n\n
+Al utilizar nuestra aplicación, aceptas estos Términos y Condiciones. Si no estás de acuerdo con alguno de estos términos, te pedimos que no utilices nuestra aplicación. Si tienes alguna pregunta sobre estos Términos y Condiciones, contáctanos en [correo electrónico de contacto].</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondoorenge"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textestadisticas"
+        android:layout_width="287dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="72dp"
+        android:fontFamily="@font/press_start_2p"
+        android:gravity="center"
+        android:text="ARTICULOS."
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="512dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/texthtml"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="HTML"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursohtml1"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/html"
+            android:layout_marginTop="4dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="416dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/textcss"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CSS"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursocss"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/css" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card3"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="320dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/textjava"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="JAVA"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursosjava"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="57dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/java" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="220dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/textscrip"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="JAVA SCRIPT"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursoscrip"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="57dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/javascript" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="120dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/textcs"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="C++"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursosc"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="57dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/cmasmas" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card7"
+        android:layout_width="357dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="20dp"
+        app:cardBackgroundColor="#95FFFFFF"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:id="@+id/texthtml2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="HTML"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursohtml"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="460dp"
+            app:srcCompat="@drawable/html"
+            android:layout_marginTop="4dp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

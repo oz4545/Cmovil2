@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imagefondo"
+            android:layout_width="455dp"
+            android:layout_height="747dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/fondolog" />
+
+        <ImageView
+            android:id="@+id/imagelogo"
+            android:layout_width="107dp"
+            android:layout_height="109dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="150dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo2" />
+
+        <TextView
+            android:id="@+id/textcoden"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="162dp"
+            android:fontFamily="@font/inter"
+            android:text="Coden"
+            android:textColor="#989898"
+            android:textColorLink="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imagelogo"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textlogros"
+            android:layout_width="213dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="212dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="LOGROS"
+            android:textColor="@color/white"
+            android:textSize="35sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            style="@style/BackgroundWithOpacity"
+            android:layout_width="170dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="304dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Background2"
+            android:layout_width="170dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="304dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Background3"
+            android:layout_width="170dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="508dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </FrameLayout>
+
+        <FrameLayout
+            style="@style/Background4"
+            android:layout_width="170dp"
+            android:layout_height="142dp"
+            android:layout_marginStart="224dp"
+            android:layout_marginTop="508dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/coin1"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="280dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/coinamarillo" />
+
+        <TextView
+            android:id="@+id/textentusiasta"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="390dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="ENTUSIASTA"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/coin2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="530dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/monedazul" />
+
+        <TextView
+            android:id="@+id/textdedicacion"
+            android:layout_width="148dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="DEDICACION"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trofeo2"
+            android:layout_width="130dp"
+            android:layout_height="105dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="520dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/trofeoazul" />
+
+        <TextView
+            android:id="@+id/textboss"
+            android:layout_width="60sp"
+            android:layout_height="45dp"
+            android:layout_marginStart="279dp"
+            android:layout_marginTop="600dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="BOSS"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/trofeo1"
+            android:layout_width="120dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="249dp"
+            android:layout_marginTop="321dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/trofeoamarillo" />
+
+        <TextView
+            android:id="@+id/textadicto"
+            android:layout_width="100sp"
+            android:layout_height="45dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="390dp"
+            android:fontFamily="@font/dotgothic16"
+            android:text="ADICTO"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

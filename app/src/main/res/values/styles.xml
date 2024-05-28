@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CircleImageView">
+        <item name="cornerSize">50%</item>
+    </style>
+        <style name="BackgroundWithOpacity">
+            <item name="android:background">#80FFFFFF</item> <!-- Cambia el valor #80 para ajustar la opacidad -->
+        </style>
+        <style name="Background2">
+            <item name="android:background">#80FFFFFF</item> <!-- Cambia el valor #80 para ajustar la opacidad -->
+        </style>
+        <style name="Background3">
+            <item name="android:background">#80FFFFFF</item> <!-- Cambia el valor #80 para ajustar la opacidad -->
+        </style>
+        <style name="Background4">
+            <item name="android:background">#80FFFFFF</item> <!-- Cambia el valor #80 para ajustar la opacidad -->
+        </style>
+</resources>

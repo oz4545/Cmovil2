@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_fondonotificaciones"
+    tools:context=".NotificacionesFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card1"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/texthtml"
+            android:layout_width="80dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="HTML"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcursotutorial"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card2"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textejercicios"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Ejercicios"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textnuevos"
+            android:layout_width="168dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Nuevos"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/car3"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textlogros"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Logros"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textdesbloqueologro"
+            android:layout_width="317dp"
+            android:layout_height="20dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Haz desbloqueado un logro!"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card4"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textranking"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Ranking"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textalcanzoprimerlugar"
+            android:layout_width="317dp"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="43dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Haz alcanzado el primer lugar!"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card5"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textagregacorreo"
+            android:layout_width="270dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Agregar correo"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textcorreorrecuperacion"
+            android:layout_width="240dp"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="43dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Agraga un correo de recuperacion"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card6"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textanuevocurso"
+            android:layout_width="270dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Nuevo curso"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textjava"
+            android:layout_width="240dp"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Java"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card7"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textcursojava"
+            android:layout_width="270dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="JAVA"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/texttutojava"
+            android:layout_width="170dp"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="CursoTutorial"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card8"
+        android:layout_width="402dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginTop="30dp"
+        app:cardBackgroundColor="#5EFFFFFF"
+        app:cardCornerRadius="50dp"
+        >
+
+        <ImageView
+            android:id="@+id/imagenotificaciones8"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="-8dp"
+            android:src="@drawable/notificaciones" />
+
+        <TextView
+            android:id="@+id/textarticulo"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="19dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Articulo"
+            android:textColor="@color/morado"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textnuevoarticulo"
+            android:layout_width="180dp"
+            android:layout_height="27dp"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="47dp"
+            android:fontFamily="@font/press_start_2p"
+            android:text="Nuevo articulo"
+            android:textColor="@color/morado"
+            android:textSize="12sp" />
+    </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</ScrollView>

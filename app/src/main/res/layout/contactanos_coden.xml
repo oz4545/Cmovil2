@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/fondoazul"
+        android:layout_width="455dp"
+        android:layout_height="734dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondolog" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="121dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#989898"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagelogo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:id="@+id/textcontactanos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Contactanos"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcoden" />
+
+    <TextView
+        android:id="@+id/textmensaje"
+        android:layout_width="394dp"
+        android:layout_height="231dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="¡Nos encantaría escucharte! Si tienes preguntas, comentarios o simplemente quieres ponerte en contacto con nosotros, no dudes en hacerlo. Puedes llenar un formulario a continuación pulsando el boton contactar o enviarnos un correo electrónico directamente."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/textcontactanos"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/textcontactanos"
+        app:layout_constraintTop_toBottomOf="@+id/textcontactanos" />
+
+    <Button
+        android:id="@+id/buttoncontactar"
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Contactar"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textmensaje"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/textmensaje"
+        app:layout_constraintTop_toBottomOf="@+id/textmensaje" />
+
+
+    <Button
+        android:id="@+id/buttongmail"
+        android:layout_width="157dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Gmail"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/buttoncontactar"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/buttoncontactar"
+        app:layout_constraintTop_toBottomOf="@+id/buttoncontactar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imagefondo"
+        android:layout_width="455dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fondolog" />
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="107dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/textcoden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="162dp"
+        android:fontFamily="@font/inter"
+        android:text="Coden"
+        android:textColor="#989898"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagelogo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textolvidocontraseña"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/inter"
+        android:text="¿Has olvidado tu contraseña?"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textcoden" />
+
+    <TextView
+        android:id="@+id/textbmensaje"
+        android:layout_width="335dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Escribe el correo con el que te registraste. Te enviaremos un código para restablecer tu contraseña."
+        android:textColor="#9A69B8"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textolvidocontraseña" />
+
+    <EditText
+        android:id="@+id/editTexcorreo"
+        android:layout_width="331dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:fontFamily="sans-serif"
+        android:hint="Dirección de tu correo electrónico"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/Ctres"
+        android:textColorHint="#68FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/textbmensaje"
+        app:layout_constraintTop_toBottomOf="@+id/textbmensaje" />
+
+    <Button
+        android:id="@+id/buttoninicio"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="98dp"
+        android:background="@drawable/fondo_degradado_boton"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Enviar código"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editTexcorreo"
+        app:layout_constraintTop_toBottomOf="@+id/editTexcorreo" />
+
+    <RelativeLayout
+        android:layout_width="110dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/buttoninicio"
+        app:layout_constraintStart_toStartOf="@+id/buttoninicio"
+        app:layout_constraintTop_toBottomOf="@+id/buttoninicio">
+
+        <!-- Botón inicio sesión -->
+        <Button
+            android:id="@+id/buttoniniciosesion"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/inter"
+            android:text="Inicia sesión"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
