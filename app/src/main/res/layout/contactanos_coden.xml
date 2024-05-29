@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ActivityContactanos">
 
 
     <ImageView
@@ -86,13 +87,13 @@
 
 
     <Button
-        android:id="@+id/buttongmail"
+        android:id="@+id/buttoncomenzar"
         android:layout_width="157dp"
         android:layout_height="52dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/fondo_degradado_boton"
         android:fontFamily="sans-serif-condensed-medium"
-        android:text="Gmail"
+        android:text="Iniciar"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="20sp"

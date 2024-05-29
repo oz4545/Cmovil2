@@ -19,12 +19,12 @@ class ActivityConfirmarCorreo : AppCompatActivity() {
         val buttonIniciarSesion = binding.buttoniniciosesion
 
         buttonInicio.setOnClickListener {
-            val intent = Intent(this, HCursosActivity::class.java)
+            val intent = Intent(this, ActivityCuentaCreada::class.java)
             startActivity(intent)
         }
 
         buttonIniciarSesion.setOnClickListener {
-            val intent = Intent(this, HCursosActivity::class.java)
+            val intent = Intent(this, ActivityCuentaCreada::class.java)
             startActivity(intent)
         }
     }

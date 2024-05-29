@@ -29,6 +29,9 @@
         <activity android:name=".ActivityConfirmarCorreo" />
         <activity android:name=".HCursosActivity"
                   android:exported="true"/>
+        <activity android:name=".ActivityCuentaCreada" />
+        <activity android:name=".ActivityContactanos" />
+
 
 
 

@@ -1,8 +1,9 @@
 package com.adso.appluic
 
-
+import android.content.Context
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.commit
 import com.adso.appluic.databinding.ActivityHcursosBinding
@@ -50,8 +51,22 @@ class HCursosActivity : AppCompatActivity() {
                     }
                     true
                 }
-
                 else -> false
+            }
+        }
+
+        // Verificar si es la primera vez que se inicia la actividad
+        val sharedPref = getPreferences(Context.MODE_PRIVATE)
+        val isFirstTime = sharedPref.getBoolean("isFirstTime", true)
+
+        if (isFirstTime) {
+            // Mostrar el Toast de bienvenida
+            Toast.makeText(this, "Bienvenido (˵ ͡° ͜ʖ ͡°˵)", Toast.LENGTH_LONG).show()
+
+            // Actualizar SharedPreferences para que no vuelva a mostrar el mensaje
+            with(sharedPref.edit()) {
+                putBoolean("isFirstTime", false)
+                apply()
             }
         }
 
@@ -79,7 +94,6 @@ class HCursosActivity : AppCompatActivity() {
                     .addToBackStack(null) // Opcional: Agregar la transacción a la pila de retroceso
                     .commit()
             }
-
         }
     }
 }
